@@ -12,6 +12,21 @@ bash
 Kopyala
 Düzenle
 python src/main.py --source 0 --start-mode gaussian --show-fps
+Parametreler
+--source: 0 (kamera) veya video yolu
+
+--start-mode: none | gaussian | median | gaussian_canny | median_canny
+
+--k: kernel (varsayılan 5)
+
+--t1 / --t2: Canny eşikleri
+
+--scale: 0.2–3.0 (pencere modunda)
+
+--fullscreen: tam ekran
+
+--show-fps: FPS yazısı
+
 Klavye
 m: mod değiştir
 
@@ -22,20 +37,3 @@ f: tam ekran / pencere modu
 q: çıkış
 
 Lisans
-MIT
-
-yaml
-Kopyala
-Düzenle
-3) Editörün üstündeki **Preview** sekmesinde kontrol et (gri kutularda sadece komutlar kalmalı).  
-4) Aşağıda **Commit changes** → **Commit**.
-
-> İpucu: Kod blokları **açılırken de kapanırken de** üç ters tırnak (```) tek başına bir satırda olmalı; önünde/arkasında boşluk/karakter olmasın.
-
----
-
-## Alternatif (yerelden Notepad ile)
-PowerShell’de:
-```powershell
-cd C:\Users\tunah\Documents\GitHub\realtime-vision
-notepad README.md
