@@ -1,4 +1,4 @@
- Real-Time OpenCV Filters (CLAHE + Canny)
+# Real-Time OpenCV Filters (CLAHE + Canny)
 
 Gerçek zamanlı görüntü işleme pipeline'ı. `m` ile mod değiştir, `f` ile tam ekrana geç, `+/-` ile ölçekle, `q` ile çık.
 
@@ -24,22 +24,18 @@ q: çıkış
 Lisans
 MIT
 
-markdown
+yaml
 Kopyala
 Düzenle
+3) Editörün üstündeki **Preview** sekmesinde kontrol et (gri kutularda sadece komutlar kalmalı).  
+4) Aşağıda **Commit changes** → **Commit**.
 
-> İpucu: Kapatma çiti (```) **tek başına bir satırda** olmalı; önünde/arkasında boşluk veya karakter kalmasın.
+> İpucu: Kod blokları **açılırken de kapanırken de** üç ters tırnak (```) tek başına bir satırda olmalı; önünde/arkasında boşluk/karakter olmasın.
 
-## 2) VS Code/Notepad ile yapmak istersen
-- `README.md`’yi aç → **tamamını** yukarıdaki metinle değiştir → **UTF-8** olarak kaydet →  
-  `git add README.md && git commit -m "fix: README fences" && git push`.
+---
 
-Bundan sonra başlıklar normal, kod blokları sadece komutlar için görünecek. İstersen demo GIF bölümünü de ekleyelim; ffmpeg komutunu README’ye yerleştiririm.
-
-
-
-
-
-
-
-ChatGPT’ye sor
+## Alternatif (yerelden Notepad ile)
+PowerShell’de:
+```powershell
+cd C:\Users\tunah\Documents\GitHub\realtime-vision
+notepad README.md
