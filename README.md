@@ -1,21 +1,27 @@
-﻿# Real-Time OpenCV Filters (CLAHE + Canny)
+# Real-Time OpenCV Filters (CLAHE + Canny)
 
-GerÃ§ek zamanlÄ± gÃ¶rÃ¼ntÃ¼ iÅŸleme pipeline'Ä±. m ile mod deÄŸiÅŸtir,  ile tam ekrana geÃ§, +/- ile Ã¶lÃ§ekle, q ile Ã§Ä±k.
+Gerçek zamanlı görüntü işleme pipeline'ı. `m` ile mod değiştir, `f` ile tam ekrana geç, `+/-` ile ölçekle, `q` ile çık.
 
 ## Kurulum
-\\\ash
+```bash
 python -m venv .venv
 # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
-\\\
 
-## Ã‡alÄ±ÅŸtÄ±rma
-\\\ash
+
+Çalıştırma
 python src/main.py --source 0 --start-mode gaussian --show-fps
-\\\
 
-## Klavye
-m (mod), f (fullscreen), +/- (Ã¶lÃ§ek), q (Ã§Ä±kÄ±ÅŸ)
+Klavye
 
-## Lisans
+m (mod), f (fullscreen), +/- (ölçek), q (çıkış)
+Lisans
+
 MIT
+
+
+5) Sonra:
+```powershell
+git add README.md
+git commit -m "fix: README (UTF-8 + düzgün markdown)"
+git push
